@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Quizz</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/q1.css">
+        <link rel="icon" href="../../A/stop.png">
+    <meta charset="utf-8">
+</head>
+
+<main>
+
+    <header>
+    <h1>Comment travaille un développeur ?</h1>
+    </header>
+
+    <p>
+        <input id="False1" type="button" value= "Travaille seulement grâce aux réponse de l'intelligence artificielle">
+        <input id="False2" type="button" value="Travaille seul dans sa cave avec sa capuche">
+        <input id="True" type="button" value="Travaille en collaboration avec une équipe ou seul parfois à l'aide de ressources externes" onclick="ouvrirPage('../../Q2/HTML/q2.html')">
+        <input id="False3" type="button" value="Ils n'ont jamais besoin d'aide ni de ressources externes, car ils sont des génies solitaires capables de tout résoudre par eux-mêmes">
+    </p>
+    
+</main>
+
+<script>
+    function ouvrirPage(url) {
+        setTimeout(function () {
+            window.location.href = url;
+        }, 500); 
+    }
+</script>
+
+</html>

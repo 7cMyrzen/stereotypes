@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Quizz</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/q2.css">
+    <link rel="icon" href="../../A/stop.png">
+    <meta charset="utf-8">
+</head>
+
+<main>
+
+    <header>
+    <h1>Comment est la vie d'un développeur ?</h1>
+    </header>
+
+    <p>
+        <input id="False1" type="button" value= "Ne voit jamais la couleur du soleil">
+        <input id="True" type="button" value="Vit normalement, fait des activités à l'exterieur" onclick="ouvrirPage('../../Q3/HTML/q3.html')">
+        <input id="False2" type="button" value="Passe son temps derrière son ordinateur à coder">
+        <input id="False3" type="button" value="Passe son temps à dormir quand il ne code pas">
+    </p>
+    
+</main>
+
+<script>
+    function ouvrirPage(url) {
+        setTimeout(function () {
+            window.location.href = url; 
+        }, 500); 
+    }
+</script>
+
+</html>

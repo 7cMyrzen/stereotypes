@@ -1,0 +1,121 @@
+body{
+    background: #100720;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    width:1080px;
+    height: 40px;
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(255,94,247,1), rgba(2,245,255,1));
+    border-image-slice: 1;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+p{
+    padding: 10px;
+    text-align: center;
+    width: 1100px;
+    height: 750px; 
+    border: 5px solid;
+    border-image: linear-gradient(to right, rgba(255, 94, 247, 1), rgba(2, 245, 255, 1));
+    border-image-slice: 1;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+  
+.button-group {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 10px;
+    flex: 1; 
+}
+
+input[id="True"]{
+    margin: 10px;
+    width: 450px;
+    height: 310px;
+    cursor: pointer; 
+    color: #fff;
+    font-size: 30px;
+    border-radius: 1rem;
+    border: 10px solid;
+    background: #100720;
+    transition: 0.1s;
+    box-shadow: 0 0 10px aliceblue;
+    white-space: normal;
+}
+
+input[id="False1"]{
+    margin: 10px;
+    width: 450px;
+    height: 310px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 1rem;
+    border: 10px solid;
+    background: #100720;
+    transition: 0.1s;
+    box-shadow: 0 0 10px aliceblue;
+    white-space: normal;
+}
+
+input[id="False2"]{
+    margin: 10px;
+    width: 450px;
+    height: 310px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 1rem;
+    border: 10px solid;
+    background: #100720;
+    transition: 0.1s;
+    box-shadow: 0 0 10px aliceblue;
+    white-space: normal;
+}
+
+input[id="False3"]{
+    margin: 10px;
+    width: 450px;
+    height: 310px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 1rem;
+    border: 10px solid;
+    background: #100720;
+    transition: 0.1s;
+    box-shadow: 0 0 10px aliceblue;
+    white-space: normal;
+}
+ 
+#False1:active {
+    box-shadow: 0 0 10px red;
+    border-color: red;
+}
+
+#False2:active {
+    box-shadow: 0 0 10px red;
+    border-color: red;
+}
+
+#False3:active {
+    box-shadow: 0 0 10px red;
+    border-color: red;
+}
+
+#True:active {
+    box-shadow: 0 0 10px greenyellow;
+    border-color: greenyellow;
+}

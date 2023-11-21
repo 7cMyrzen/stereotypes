@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Quizz</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/q4.css">
+    <link rel="icon" href="../../A/stop.png">
+    <meta charset="utf-8">
+</head>
+
+<main>
+
+    <header>
+    <h1>Que fait un développeur la plupart de son temps ?</h1>
+    </header>
+
+    <p>
+        <input id="False1" type="button" value= "Passe son temps à jouer en attendant qu'on lui donne du travail">
+        <input id="False2" type="button" value="Il laisse une Intelligence artificielle faire le travail à sa place">
+        <input id="True" type="button" value="Il code mais la plupart de son temps, il corrige des erreurs de programme" onclick="ouvrirPage('../../Q5/HTML/q5.html')">
+        <input id="False3" type="button" value="Il termine son programme mais ne s'occupe jamais de l'entretenir">
+    </p>
+    
+</main>
+
+<script>
+    function ouvrirPage(url) {
+        setTimeout(function () {
+            window.location.href = url; 
+        }, 500); 
+    }
+</script>
+
+</html>

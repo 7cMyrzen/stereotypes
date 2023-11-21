@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Quizz</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/q3.css">
+    <link rel="icon" href="../../A/stop.png">
+    <meta charset="utf-8">
+</head>
+
+<main>
+
+    <header>
+    <h1>La cybersécurité sert-elle uniquement à la défense des serveurs dans le monde ?</h1>
+    </header>
+
+    <p>
+        <input id="False1" type="button" value= "Elle sert uniquement dans la défense de serveur, jamais dans l'attaque">
+        <input id="False2" type="button" value="Elle sert uniquement dans l'attaque des serveurs, jamais dans la défense">
+        <input id="False3" type="button" value="Ce sont les personnes qui vont gérer les problèmes dans votre appareil électronique">
+        <input id="True" type="button" value="Il peut aussi bien attaquer des serveurs, que les défendre, pour montrer les failles dans les sites" onclick="ouvrirPage('../../Q4/HTML/q4.html')">
+    </p>
+    
+</main>
+
+<script>
+    function ouvrirPage(url) {
+        setTimeout(function () {
+            window.location.href = url; 
+        }, 500); 
+    }
+</script>
+
+</html>
